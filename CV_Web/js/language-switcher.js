@@ -6,7 +6,7 @@
   function switchLanguage(lang) {
     // Получаем переводы для выбранного языка
     const translation = translations[lang];
-    // Изменяем текст элементов страницы
+    // Изменяем текст элементов страницыыы
     document.querySelector('#info h2').textContent = translation.infoTitle;
     document.querySelector('#info h1').textContent = translation.name;
     document.querySelectorAll('#info p')[0].textContent = translation.objective1;
