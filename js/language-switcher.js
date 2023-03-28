@@ -3,6 +3,7 @@
   const menuItems = document.querySelectorAll('.menu li');
   const scroll = new SmoothScroll();
 
+
   function switchLanguage(lang) {
     // Получаем переводы для выбранного языка
     const translation = translations[lang];
