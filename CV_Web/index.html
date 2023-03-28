@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Подключаем библиотеку smooth-scroll -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <title>Resume of Vladimir Sitov</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Добавленный код для кнопок смены языка -->
+    <div class="language-switcher">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png" alt="Russian flag" onclick="switchLanguage('ru')">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png" alt="US flag" onclick="switchLanguage('en')">
+    </div>
+
+    <section id="menu">
+    <div class="menu">
+     <ul>
+  <li data-section="info" onclick="scrollInfo('#info')">Information</li>
+  <li data-section="skills" onclick="scrollInfo('#skills')">Skills</li>
+  <li data-section="education" onclick="scrollInfo('#education')">Education</li>
+  <li data-section="contacts" onclick="scrollInfo('#contacts')">Contacts</li>
+</ul>
+    </div>
+
+    <div class="container">
+      <section id="info">
+        <div class="resume">
+          <h2>Information</h2>
+          <h1 style="display:inline-block;">Vladimir Sitov - Business/system analyst</h1>
+          <img src="img/vsitov_img.jpeg" alt="Photo of Vladimir Sitov" width="200" height="200" style="float:right;">
+          <p>The novice specialist is looking for an opportunity to gain experience as a business analyst.</p>
+          <p>Despite the lack of relevant work experience, I can offer the company the basic knowledge necessary for this position, as well as the ability to quickly learn for further productive work on projects.</p>
+</div>
+</section>
+
+<section id="skills">
+<div class="resume">
+    <h2>Skills</h2>
+    <ul>
+        <li><strong>Project management tools:</strong><br>Jira, Trello</li><hr>
+        <li><strong>Modeling notations:</strong><br>IDEF0, UML, BPMN</li><hr>
+        <li><strong>Graph drawing software:</strong><br>Microsoft Visio, Archi, Draw.io</li><hr>
+        <li><strong>OS:</strong><br>Windows, Linux</li><hr>
+        <li><strong>VCS:</strong><br>Git</li><hr>
+        <li><strong>English Proficiency:</strong><br>Intermediate (B1)</li><hr>
+        <li><strong>Other:</strong><br>Understanding of Client-Server Architecture</li><hr>
+        <li><strong>Programming languages:</strong>
+          <table width = "400">
+            <tr>
+              <td>Python (basics)</td>
+              <td>Pet-project: telegram bot</td>
+            </tr>
+            <tr>
+              <td>SQL (MS SQL Server)</td>
+              <td>JS (basics)</td>
+            </tr>
+          </table>
+        </li>
+    </ul>
+</div>
+</section>
+
+<section id="education">
+<div class="resume">
+    <h2>Education</h2>
+    <img src="img/spbstu.png" alt="spbstu logo" width="100" height="100">
+    <p> SPbPU, specialty - business informatics </p>
+</div>
+</section>
+
+<section id="contacts">
+    <div class="resume">
+        <h2>Contacts</h2>
+        <div class="contact-info">
+            <p><a href="tel:+79992130516"><img src="img/phone.png" alt="telegram logo" width="35" height="35">+7 (999)213-05-16</a></p>
+            <p><a href="tg://resolve?domain=amolergo"><img src="img/telegram.png" alt="telegram logo" width="35" height="35"></i>@amolergo</a></p>
+            <p><a href="mailto:vsitov196@gmail.com"><img src="img/mail.png" alt="telegram logo" width="35" height="35"></i>vsitov196@gmail.com</a></p>
+        </div>
+    </div>
+</section>
+
+<p class="animated-text" align="center">Powered by Vladimir Sitov & GPT-4<br>2023</p>
+
+
+<script src="js/language-switcher.js"></script>
+<script src="js/localization.js"></script>
+</body>
+</html>

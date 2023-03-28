@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.resume {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+        .resume h2 + img {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .resume h2 + img + p {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-top: 0;
+        }
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #d7d7d7;
+            padding: 10px 0;
+            z-index: 1;
+        }
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display:flex;
+            justify-content:center;
+
+        }
+        .menu li {
+          margin-right :20px; 
+          cursor:pointer; 
+          font-weight:bold; 
+          color:#333; 
+          text-transform :uppercase; 
+          font-size :14px; 
+          letter-spacing :1px; 
+          transition :all .3s ease-in-out; 
+            font-size :17px;
+         } 
+         .menu li:hover { color:#000;} 
+         section { height :100vh;} 
+         #info { background-color :rgba(241, 241, 241, 0.8);
+                 margin-top: -1px;} 
+         #skills { background-color :rgba(241, 241, 241, 0.8);} 
+         #education { background-color :rgba(241, 241, 241, 0.8);} 
+         #contacts { background-color :rgba(241, 241, 241, 0.8);} 
+
+         img{
+             border-radius:10%;
+             width:auto;
+
+         }
+
+         /* Добавленный код для кнопок смены языка */
+         .language-switcher {
+           position: fixed;
+           top: 10px;
+           right: 10px;
+           z-index: 2;
+         }
+         .language-switcher img {
+           width: 30px;
+           height: 20px ;
+           cursor: pointer ;
+         }
+section {
+    position: relative;
+    min-height: 100vh;
+}
+
+.resume {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.menu li.active {
+  color: #6495ED;
+}
+
+#contacts .contact-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+#contacts h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#contacts .contact-info a {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#contacts .contact-info img {
+    margin-right: 8px;
+}
+.animated-text{
+    color: azure;
+}
