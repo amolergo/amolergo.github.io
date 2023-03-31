@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 0 0 40px;
 }
 .resume {
     background-color: rgba(255, 255, 255, 0.8);
@@ -128,7 +128,29 @@ section {
 #contacts .contact-info img {
     margin-right: 8px;
 }
-.animated-text{
-    color: azure;
+#contacts {
+    position: relative;
+}
+
+.animated-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    /*font-style: italic;*/
+    color: black;
+    background: linear-gradient(to right, silver, #3f3e3e, silver);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s linear infinite;
+    z-index: 5;
+}
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
 }
 

@@ -8,10 +8,10 @@
     // Получаем переводы для выбранного языка
     const translation = translations[lang];
     // Изменяем текст элементов страницы
-    document.querySelector('#info h2').textContent = translation.infoTitle;
-    document.querySelector('#info h1').textContent = translation.name;
+    document.querySelector('#info h2').innerHTML = translation.infoTitle;
+    document.querySelector('#info h1').innerHTML = translation.name;
     document.querySelectorAll('#info p')[0].textContent = translation.objective1;
-    document.querySelectorAll('#info p')[1].textContent = translation.objective2;
+    document.querySelectorAll('#info p')[1].innerHTML = translation.objective2;
     document.querySelectorAll('#menu li')[0].textContent = translation.menu1;
     document.querySelectorAll('#menu li')[1].textContent = translation.menu2;
     document.querySelectorAll('#menu li')[2].textContent = translation.menu3;
@@ -82,3 +82,11 @@ menuItems.forEach(item => {
     highlightMenuItem(item.dataset.section);
   });
 });
+
+  window.addEventListener('scroll', function() {
+    var contactsSection = document.querySelector('#contacts');
+    var maxScroll = contactsSection.offsetTop + contactsSection.offsetHeight - window.innerHeight;
+    if (window.scrollY > maxScroll) {
+      window.scrollTo(0, maxScroll-1);
+    }
+  });
