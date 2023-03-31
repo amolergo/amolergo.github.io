@@ -1,13 +1,13 @@
   // Объекты с переводами
   const translations = {
     ru: {
-      infoTitle: 'Информация',
+      infoTitle: 'Информация<br>',
       skillsTitle: 'Навыки',
       educationTitle: 'Образование',
       contactsTitle: 'Контакты',
-      name: 'Владимир Ситов - Бизнес/системный аналитик',
+      name: 'Владимир Ситов <br><br> Бизнес/системный аналитик',
       objective1: 'Начинающий специалист ищет возможность получить опыт работы бизнес-аналитиком.',
-      objective2: 'Несмотря на отсутствие соответствующего опыта работы, я могу предложить компании базовые знания, необходимые для этой должности, а также способность быстро обучаться для дальнейшей продуктивной работы над проектами.',
+      objective2: 'Несмотря на отсутствие соответствующего опыта работы, я могу предложить компании базовые знания, необходимые для этой должности, а также способность быстро обучаться для дальнейшей продуктивной работы над проектами.<br>',
       menu1: 'Информация',
       menu2: 'Навыки',
       menu3: 'Образование',
@@ -25,15 +25,15 @@
       phoneLabel: 'Телефон:',
     },
     en: {
-      infoTitle: 'Information',
+      infoTitle: 'Information<br>',
       skillsTitle: 'Skills',
       educationTitle: 'Education',
       contactsTitle: 'Contacts',
-      name: 'Vladimir Sitov - Business/system analyst',
+      name: 'Vladimir Sitov <br><br> Business/system analyst',
       objective1:
         'The novice specialist is looking for an opportunity to gain experience as a business analyst.',
       objective2:
-        "Despite the lack of relevant work experience, I can offer the company the basic knowledge necessary for this position, as well as the ability to quickly learn for further productive work on projects.",
+        "Despite the lack of relevant work experience, I can offer the company the basic knowledge necessary for this position, as well as the ability to quickly learn for further productive work on projects.<br>",
         menu1: 'Information',
         menu2: 'Skills',
         menu3: 'Education',
