@@ -26,7 +26,7 @@
     document.querySelectorAll('#skills li')[6].innerHTML = translation.skill7;
     document.querySelectorAll('#skills li')[7].innerHTML = translation.skill8;
     document.querySelector('#education h2').textContent = translation.educationTitle;
-    document.querySelector('#education p').textContent = translation.educationInstitution;
+    document.querySelector('#education p').innerHTML = translation.educationInstitution;
     document.querySelector('#contacts h2').textContent = translation.contactsTitle;
     document.querySelector('#contacts p').childNodes[0].nodeValue = translation.phoneLabel + ' ';
   }

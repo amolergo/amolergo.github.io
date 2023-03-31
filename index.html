@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
   <!-- Подключаем библиотеку smooth-scroll -->
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <title>Resume of Vladimir Sitov</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
@@ -23,6 +25,9 @@
   <li data-section="contacts" onclick="scrollInfo('#contacts')">Contacts</li>
 </ul>
     </div>
+
+
+
 
     <div class="container">
       <section id="info">
@@ -50,11 +55,10 @@
           <table width = "400">
             <tr>
               <td>Python (basics)</td>
-              <td>Pet-project: telegram bot</td>
+              <td>Pet-project: <a href="https://github.com/amolergo/PolySearchBot" target="_blank">telegram bot</a></td>
             </tr>
             <tr>
               <td>SQL (MS SQL Server)</td>
-              <td>JS (basics)</td>
             </tr>
           </table>
         </li>
@@ -65,8 +69,8 @@
 <section id="education">
 <div class="resume">
     <h2>Education</h2>
-    <img src="img/spbstu.png" alt="spbstu logo" width="100" height="100">
-    <p> SPbPU, specialty - business informatics </p>
+    <img src="img/spbstu.png" alt="spbstu logo" width="130" height="130">
+    <p><strong> Peter the Great St.Petersburg Polytechnic University</strong> <br><br> Bachelor's Degree <br><br> Specialty «Business Informatics» </p>
 </div>
 </section>
 
@@ -80,10 +84,7 @@
         </div>
     </div>
 </section>
-
 <p class="animated-text" align="center">Powered by Vladimir Sitov & GPT-4<br>2023</p>
-
-
 <script src="js/language-switcher.js"></script>
 <script src="js/localization.js"></script>
 </body>

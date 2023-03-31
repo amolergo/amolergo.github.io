@@ -20,8 +20,8 @@
       skill5: '<strong>Система контроля версий:</strong><br>Git',
       skill6: '<strong>Уровень английского:</strong><br>Средний (B1)',
       skill7: '<strong>Другое:</strong><br>Понимание клиент-серверной архитектуры',
-      skill8: '<strong>Языки программирования:</strong><table width = "400"><tr><td>Python (basics)</td><td>Pet-project: telegram bot</td></tr><tr><td>SQL (MS SQL Server)</td><td>JS (basics)</td></tr></table>',
-      educationInstitution: 'СПбПУ, специальность - бизнес-информатика',
+      skill8: '<strong>Языки программирования:</strong><table width = "400"><tr><td>Python (basics)</td><td>Pet-project: <a href="https://github.com/amolergo/PolySearchBot" target="_blank">telegram bot</a></td></tr><tr><td>SQL (MS SQL Server)</td></tr></table>',
+      educationInstitution: '<strong>Санкт-Петербургский Политехнический Университет Петра Великого</strong> <br><br> Спепень бакалавра <br><br> Cпециальность «бизнес-информатика»',
       phoneLabel: 'Телефон:',
     },
     en: {
@@ -45,8 +45,8 @@
         skill5:'<strong>VCS:</strong><br>Git', 
         skill6:'<strong>English Proficiency:</strong><br>Intermediate (B1)', 
         skill7:'<strong>Other:</strong><br>Understanding of client-server architecture',  
-        skill8:'<strong>Programming languages:</strong><table width = "400"><tr><td>Python (basics)</td><td>Pet-project: telegram bot</td></tr><tr><td>SQL (MS SQL Server)</td><td>JS (basics)</td></tr></table>',
-        educationInstitution:'SPbPU, specialty - business informatics, bachelor degree', 
+        skill8:'<strong>Programming languages:</strong><table width = "400"><tr><td>Python (basics)</td><td>Pet-project: <a href="https://github.com/amolergo/PolySearchBot" target="_blank">telegram bot</a></td></tr><tr><td>SQL (MS SQL Server)</td></tr></table>',
+        educationInstitution:'<strong>Peter the Great St.Petersburg Polytechnic University</strong> <br><br> Bachelor\'s Degree <br><br> Specialty «Business Informatics»',
         phoneLabel:'Phone:'
     }
   }
