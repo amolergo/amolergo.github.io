@@ -9,7 +9,7 @@ body {
     background-attachment: fixed;
 }
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 40px 0;
 }
@@ -73,14 +73,11 @@ body {
                  margin-top: -1px;} 
          #skills { background-color :rgba(241, 241, 241, 0.8);} 
          #education { background-color :rgba(241, 241, 241, 0.8);} 
-         #contacts { background-color :rgba(241, 241, 241, 0.8);} 
-
+         #contacts { background-color :rgba(241, 241, 241, 0.8);}
          img{
              border-radius:10%;
              width:auto;
-
          }
-
          /* Добавленный код для кнопок смены языка */
          .language-switcher {
            position: fixed;
@@ -134,3 +131,4 @@ section {
 .animated-text{
     color: azure;
 }
+
